@@ -1,0 +1,49 @@
+body {
+    background-color: #ffe5d9;
+}
+
+#barraNav{
+    background-color: #d8e2dc;
+}
+
+#fotoPerfil{
+    background-color:#ffe5d9;
+    border-radius: 100%;
+}
+
+.botonMenu:hover{
+    background-color: #ffe5d9;
+    transition: 400ms;
+    border-radius: 50%;
+}
+
+.botonNav:hover{
+    border-radius: 25px;
+    background-color: #ffe5d9;
+    transition: 600ms;
+}
+
+#estudios{
+    background-color: #f4acb7;
+    border-radius: 20px;
+}
+
+#idiomas{
+    background-color: #f4acb7;
+    border-radius: 20px;
+}
+
+#experiencia{
+    background-color: #f4acb7;
+    border-radius: 20px;
+}
+
+#habilidades{
+    background-color: #f4acb7;
+    border-radius: 20px;
+}
+
+#habilidades2{
+    background-color: #f4acb7;
+    border-radius: 20px;
+}
