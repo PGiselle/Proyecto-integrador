@@ -1,9 +1,31 @@
 body {
-    background-color: #ffe5d9;
-}
+    
+        background: linear-gradient(214deg, #88a5ff, #ffa0de);
+        background-size: 400% 400%;
+    
+        -webkit-animation: AnimationName 5s ease infinite;
+        -moz-animation: AnimationName 5s ease infinite;
+        animation: AnimationName 5s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:33% 0%}
+        50%{background-position:68% 100%}
+        100%{background-position:33% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:33% 0%}
+        50%{background-position:68% 100%}
+        100%{background-position:33% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:33% 0%}
+        50%{background-position:68% 100%}
+        100%{background-position:33% 0%}
+    }
 
 #barraNav{
-    background-color: #d8e2dc;
+    /* background eliminado */
 }
 
 #fotoPerfil{
@@ -26,21 +48,45 @@ body {
 #estudios{
     background-color: #f4acb7;
     border-radius: 20px;
+    transition: 400ms;
 }
-
+#estudios:hover{
+    box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+}
 #idiomas{
     background-color: #f4acb7;
     border-radius: 20px;
+    transition: 400ms;
+}
+
+#idiomas:hover{
+    box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
 }
 
 #experiencia{
     background-color: #f4acb7;
     border-radius: 20px;
+    transition: 400ms;
+}
+#experiencia:hover{
+    box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
 }
 
 #habilidades{
     background-color: #f4acb7;
     border-radius: 20px;
+    transition: 400ms;
+}
+#habilidades:hover{
+    box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 14px 7px rgba(0,0,0,0.64);
 }
 
 #habilidades2{
